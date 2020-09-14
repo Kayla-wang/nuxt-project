@@ -59,5 +59,9 @@ export default {
   */
   build: {
     transpile: [/^element-ui/],
-  }
+  },
+  server: {
+    port: 4001, // default: 3000
+    host: "0.0.0.0" // default: localhost
+  },
 }
